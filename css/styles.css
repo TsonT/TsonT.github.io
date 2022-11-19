@@ -1,0 +1,237 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  background-image: url("../images/background-lighter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+.bluenavbar {
+  background-color: #3d5a80;
+}
+
+.title-text {
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #919191 !important;
+}
+
+.title-name {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.google-logo {
+  width: 75px;
+  height: auto;
+}
+
+.chapelhill-logo {
+  width: 75px;
+  height: auto;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255, 0);
+}
+
+.header {
+  font-weight: bold;
+}
+
+.anchor {
+  padding-top: 88px !important;
+  margin-top: -88px !important;
+  font-size: 70px;
+  font-weight: bold;
+  color: #3d5a80;
+  margin-bottom: 50px !important;
+}
+
+.skills-logo {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#java-logo {
+  width: 50px;
+}
+
+#sql-logo {
+  width: 100px;
+}
+
+#c-logo {
+  width: 50px;
+}
+
+#bootstrap-logo {
+  width: 50px;
+}
+
+#firebase-logo {
+  width: 140px;
+}
+
+#google-work-logo {
+  width: 80px;
+}
+
+.circle-picture {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #b5b5b54a;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-card {
+  width: 25%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#banhmihalong-logo {
+  width: 80px;
+}
+
+.work-card-container {
+  gap: 10%;
+}
+
+.body-container {
+  margin-top: 20% !important;
+}
+
+.body-text {
+  width: 65%;
+}
+
+.project-card-container {
+  gap: 10px;
+}
+
+.project-card {
+  display: block;
+  width: 25%;
+  min-width: 250px;
+  height: 300px;
+  background-color: #b7b7b738;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: black;
+}
+
+.project-card:hover {
+  transform: scale(0.9);
+  color: black;
+}
+
+#tutorme-logo {
+  width: 80px;
+}
+
+.project-header {
+  font-weight: bold;
+  color: #3d5a80;
+  margin-top: 10px;
+}
+
+#pong-logo {
+  width: 150px;
+  border-radius: 10px;
+}
+
+#website-logo {
+  width: 200px;
+  border-radius: 10px;
+}
+
+#customshell-logo {
+  width: 100px;
+}
+
+#game-logo {
+  width: 80px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #3d5a80;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-button-container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.contact-button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-button:hover {
+  background-color: #919191;
+}
+
+#github-logo {
+  width: 25px;
+}
+
+#linkedin-logo {
+  width: 20px;
+}
+
+#facebook-logo {
+  width: 25px;
+}
