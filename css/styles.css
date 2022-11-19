@@ -189,7 +189,7 @@ body {
 }
 
 .footer {
-  height: 100px;
+  height: fit-content;
   background-color: #3d5a80;
   margin-left: -10px;
   margin-right: -10px;
