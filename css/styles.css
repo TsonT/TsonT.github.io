@@ -33,6 +33,11 @@ body {
   color: #919191 !important;
 }
 
+.nav-link:focus {
+  border-color: black !important;
+  border-style: solid;
+}
+
 .title-name {
   font-size: 75px;
   font-weight: bold;
@@ -99,6 +104,10 @@ body {
   width: 80px;
 }
 
+#google-work-logo2 {
+  width: 80px;
+}
+
 .circle-picture {
   border-radius: 50%;
   padding: 10px;
@@ -119,6 +128,9 @@ body {
 }
 
 #banhmihalong-logo {
+  width: 80px;
+}
+#banhmihalong-logo-projects {
   width: 80px;
 }
 
@@ -158,6 +170,11 @@ body {
 .project-card:hover {
   transform: scale(0.9);
   color: black;
+}
+
+.project-card:focus {
+  border-style: solid;
+  border-color: black;
 }
 
 #tutorme-logo {
@@ -224,6 +241,11 @@ body {
   background-color: #919191;
 }
 
+.contact-button:focus {
+  border-style: solid;
+  border-color: black;
+}
+
 #github-logo {
   width: 25px;
 }
@@ -234,4 +256,8 @@ body {
 
 #facebook-logo {
   width: 25px;
+}
+
+#discord-logo {
+  width: 80px;
 }
