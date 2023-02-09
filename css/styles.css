@@ -33,11 +33,6 @@ body {
   color: #919191 !important;
 }
 
-.nav-link:focus {
-  border-color: black !important;
-  border-style: solid;
-}
-
 .title-name {
   font-size: 75px;
   font-weight: bold;
@@ -172,11 +167,6 @@ body {
   color: black;
 }
 
-.project-card:focus {
-  border-style: solid;
-  border-color: black;
-}
-
 #tutorme-logo {
   width: 80px;
 }
@@ -241,11 +231,6 @@ body {
   background-color: #919191;
 }
 
-.contact-button:focus {
-  border-style: solid;
-  border-color: black;
-}
-
 #github-logo {
   width: 25px;
 }
@@ -260,4 +245,56 @@ body {
 
 #discord-logo {
   width: 80px;
+}
+
+.container-fade-in {
+  opacity: 0;
+}
+
+.fade-in-bot {
+  -webkit-animation: fadeInBot 1.2s both;
+  -moz-animation: fadeInBot 1.2s both;
+  -o-animation: fadeInBot 1.2s both;
+  animation: fadeInBot 1.2s both;
+}
+
+@-webkit-keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInBot {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
 }
